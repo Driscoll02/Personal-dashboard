@@ -25,7 +25,7 @@ const SideBar = () => {
   };
 
   return (
-    <div className="align-center flex h-screen w-1/6 flex-col bg-gradient-to-r from-gray-900 to-gray-800 text-gray-200">
+    <div className="align-center flex h-screen min-w-[16.67%] flex-col bg-gradient-to-r from-gray-900 to-gray-800 text-gray-200">
       <div className="mx-auto mt-5">
         <Link href="/" className=" mt-3 text-5xl ">
           DevFlow
